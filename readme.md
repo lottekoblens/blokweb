@@ -69,15 +69,15 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Intake (week 1)
 -uitwerken voor de kick-off werkgroep - begin van de eerste week-
 
-**Je startniveau:** -kies uit zwart, rood óf blauw-
+**Je startniveau:** -Rood. Ik kies voor rood, omdat ik mezelf wil uitdagen. Ik vind coderen namelijk nog wel lastig, maar vind het ook zeker erg leuk als het lukt.-
 
-**Je focus:** -kies uit responsive óf surface plane-
+**Je focus:** -responsive-
 
-**Je opdracht:** -link naar de website die je gaat namaken óf de naam van je eigen ontwerp-
+**Je opdracht:** https://nl-nl.duolingo.com/
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
-<img src="images/dummy-plaatje.svg" width="375px" alt="omschrijving van de pagina">
+<img src="images/duolingo-home-1.png" width="375px" alt="Homepagina">
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
