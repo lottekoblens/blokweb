@@ -87,8 +87,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
-<img src="images/duolingo-plus-1" width="375px" alt="Pagina over het plus abonnement">
-<img src="images/duolingo-plus-2" width="375px" alt="Pagina over het plus abonnement">
-<img src="images/duolingo-plus-3" width="375px" alt="Pagina over het plus abonnement">
-<img src="images/duolingo-plus-4" width="375px" alt="Pagina over het plus abonnement">
-<img src="images/duolingo-plus-5" width="375px" alt="Pagina over het plus abonnement">
+<img src="images/duolingo-plus-1.png" width="375px" alt="Pagina over het plus abonnement">
+<img src="images/duolingo-plus-2.png" width="375px" alt="Pagina over het plus abonnement">
+<img src="images/duolingo-plus-3.png" width="375px" alt="Pagina over het plus abonnement">
+<img src="images/duolingo-plus-4.png" width="375px" alt="Pagina over het plus abonnement">
+<img src="images/duolingo-plus-5.png" width="375px" alt="Pagina over het plus abonnement">
