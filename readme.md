@@ -79,6 +79,10 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 <img src="images/duolingo-home-1.png" width="375px" alt="Homepagina">
 <img src="images/duolingo-home-2.png" width="375px" alt="Homepagina">
+<img src="images/duolingo-home-3.png" width="375px" alt="Homepagina">
+<img src="images/duolingo-home-4.png" width="375px" alt="Homepagina">
+<img src="images/duolingo-home-5.png" width="375px" alt="Homepagina">
+<img src="images/duolingo-home-6.png" width="375px" alt="Homepagina">
 <img src="images/duolingo-home-7.png" width="375px" alt="Homepagina">
 
 **Screenshot(s) van de tweede pagina (small screen):**
