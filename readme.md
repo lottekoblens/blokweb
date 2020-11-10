@@ -81,9 +81,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 <img src="images/NBT-Home-2.png" width="375px" alt="Homepagina">
 <img src="images/NBT-Home-3.png" width="375px" alt="Homepagina">
 <img src="images/NBT-Home-4.jpg" width="375px" alt="Homepagina">
-<img src="images/NBT-Home-5.png" width="375px" alt="Homepagina">
-<img src="images/NBT-Home-6.png" width="375px" alt="Homepagina">
-<img src="images/NBT-Home-7.png" width="375px" alt="Homepagina">
+<img src="images/NBT-Home-5.jpg" width="375px" alt="Homepagina">
+<img src="images/NBT-Home-6.jpg" width="375px" alt="Homepagina">
+<img src="images/NBT-Home-7.jpg" width="375px" alt="Homepagina">
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
