@@ -73,7 +73,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Je focus:** -responsive-
 
-**Je opdracht:** https://nl-nl.duolingo.com/
+**Je opdracht:** https://www.nbthieves.com/
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
