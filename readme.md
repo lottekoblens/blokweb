@@ -62,7 +62,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Breakdownschets (week 1)
 
-<img src="images/breakdown-home.jpg" width="375px" alt="Breakdown schets homepagina">
+<img src="images/Breakdown home.png" width="375px" alt="Breakdown schets homepagina">
 <img src="images/breakdown-music.jpg" width="375px" alt="Breakdown schets pagina Music">
 
 
