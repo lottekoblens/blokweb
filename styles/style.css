@@ -18,6 +18,10 @@ body {
   color: black;
   font-size: 1em;
   font-weight: 400;
+  position: relative;
+  text-align: center;
+  line-height: 1.5em;
+  -webkit-font-smoothing: antialiased;
 }
 
 header {
@@ -26,7 +30,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 96vw;
+  width: 100vw;
   background: white;
   height: 9vh;
 }
@@ -34,6 +38,15 @@ header {
 header img {
   max-width: 70vw;
   margin: 1.5em 1.5em 1.5em 1.5em;
+}
+
+header button {
+  background: none;
+  border: none;
+}
+
+header button img {
+  margin: 1em 1em 1em 1em;
 }
 
 a {
@@ -46,24 +59,337 @@ img, video {
   height: auto;
   }
 
-  section:nth-of-type(1) {
-    padding: 0;
-    margin: 0;
+h2 {
+  letter-spacing: 0.1em;
+  font-family: 'Woodford Bourne Thin', sans-serif;
+  font-size: 2em;
+  font-weight: normal;
+  padding: 3em 0 2.5em 0;
+  line-height: 1.22em;
+}
+
+h3 {
+  letter-spacing: 0.1em;
+  font-family: 'Woodford Bourne Thin', sans-serif;
+  font-size: 1.4em;
+  font-weight: normal;
+  padding: 1em 0 1em 0;
+  line-height: 1.22em;
+  max-width: 80%;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 0.5em;
+}
+
+.slider {
+  padding: 0;
+  margin: 0;
   }
 
-  section:nth-of-type(3) {
-    background: #232323;
-    color: white;
+.video-img {
+  padding: 0 0 7.5em;
+}
+
+
+
+.moral_panic img {
+  width: 80vw;
+}
+
+.moral_panic h2 {
+  margin: 0.75em 0 2em 0;
+  padding: 0;
+}
+
+
+
+.listen, .more {
+  font-family: 'Woodford Bourne Thin', sans-serif;
+  border: solid 0.0625em #232323;
+  border-radius: 0.3125em;
+  padding: 0.6em 1.5em;
+  font-size: 0.9em;
+}
+
+.listen {
+  margin: 1.25em 0 3.125em 0;
+}
+
+.more {
+  margin: 5em 0;
+  width: 10em;
+ 
+}
+
+.tour-dates a {
+  color: white;
   }
 
-  section:nth-of-type(3) ul {
-    color: white;
-  }
+.tour-dates li {
+  padding-bottom: 0.5em;
+  margin-left: -2em;
+}
 
-  section:nth-of-type(3) a {
-    color: white;
-  }
+.tour-dates-more {
+  font-family: 'Woodford Bourne Thin', sans-serif;
+  border: solid 0.0625em white;
+  border-radius: 0.3125em;
+  padding: 0.6em 1.5em;
+  font-size: 0.9em;
+}
 
-  ul {
+ul {
     list-style-type: none;
   }
+
+.kleding {
+  padding: 0;
+  margin: 0;
+}
+
+ li{
+  overflow: hidden;
+  padding-left: 0;
+}
+
+.news {
+  overflow-x: scroll;
+  white-space: nowrap;
+  display: block;
+  flex-direction: column;
+  width:100%;
+  max-width: 100vw;
+  padding: 0 0 1em 0;
+}
+
+.news article {
+  display: inline-block;
+  margin: 0 2em;
+  vertical-align: top;
+  align-items: center;
+  margin-left: 1em;
+}
+
+.news article img {
+  max-width: 100%;
+}
+
+.news article h3 {
+  white-space: initial;
+}
+
+::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #232323;
+}
+
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+.tour-dates-more, .tour-dates-more a {
+  background: white;
+  color: #232323;
+}
+
+section:nth-of-type(5) {
+  background: #ededed !important;
+}
+
+section:nth-of-type(6) article:nth-of-type(1){
+  background: #ededed;
+}
+
+section:nth-of-type(6) article:nth-of-type(2){
+  background: #232323;
+}
+
+p {
+  font-weight: bold;
+  font-size: 1em;
+}
+
+/* music pagina */
+
+.moral-panic {
+  background: rgb(234, 234, 234);
+  text-align: center;
+}
+
+.h2-music {
+  letter-spacing: 0.4em;
+  font-family: 'Woodford Bourne Thin', sans-serif;
+  font-size: 2em;
+  display: block;
+  padding: 5em 0 1em 0;
+}
+
+.img-music {
+  width: 80vw;
+}
+
+ol {
+  
+}
+
+ol li {
+  overflow: visible;
+}
+
+@media (max-width: 991px) {
+  .moral_panic article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    align-items: center;
+    margin-bottom: 1em;
+  }
+
+  .moral_panic img {
+    min-width: 50vw;
+  }
+
+  .tour-dates {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: #232323;
+    color: white;
+    font-family: 'Woodford Bourne', sans-serif;
+    font-weight: 400;
+    height: 110vh;
+    }
+  
+  .tour-dates ul {
+    color: white;
+    max-width: 100%;
+    border-bottom: 0.001em solid rgba(124, 124, 124, 0.25);
+    }
+
+  .news article {
+    width: 90% !important;
+  }
+
+  section:nth-of-type(6) img{
+    max-width: 80%;
+    height: auto;
+    margin: 2em 2em  2em 2em;
+  }
+
+  .shop ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+
+  .shop img {
+    max-width: 85%;
+  }
+
+  .tour-dates-more {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 11em;
+  }
+
+  .footer-img {
+    min-width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .moral_panic article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+  }
+
+  .moral_panic img {
+    max-width: 30%;
+  }
+
+  .tour-dates {
+    background: #232323;
+    color: white;
+    height: 60vh;
+  }
+
+  .tour-dates h2 {
+    letter-spacing: 0.4em;
+  }
+
+  .tour-dates ul {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Woodford Bourne', sans-serif;
+    font-weight: 700;
+    padding: 0.5em 0;
+    border-bottom: 0.001em solid rgba(124, 124, 124, 0.25);
+    }
+
+  .tour-dates ul li:nth-of-type(1) {
+    width: 20%;
+    order: 1;
+  }
+
+  .tour-dates ul li:nth-of-type(2) {
+    width: 35%;
+    order: 2;
+  }
+
+  .tour-dates ul li:nth-of-type(3) {
+    width: 25%;
+    order: 3;
+  }
+
+  .tour-dates ul li:nth-of-type(4) {
+    width: 20%;
+    order: 4;
+  }
+
+  .tour-dates-more {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 3em;
+    max-width: 11em;
+  }
+
+  .news article {
+    width: 40% !important;
+  }
+
+  section:nth-of-type(6) img{
+    max-width: 40%;
+    margin: 1em 1em 1em 1em;
+  }
+
+  .shop ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+
+  .shop img {
+    max-width: 90%;
+  }
+}
