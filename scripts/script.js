@@ -1,10 +1,10 @@
 // JavaScript Document
-var deButton = document.querySelector("button");
-deButton.addEventListener("click", navMenu);
+var deButton = document.querySelector('button');
+deButton.addEventListener("click", linksEnRechts);
 
-function navMenu() {
-    var navSelect = document.querySelector("header nav");
-    navSelect.classList.toggle("nav.toonNav");
+function linksEnRechts() {
+    var navSelect = document.querySelector('nav');
+    navSelect.classList.toggle('toonNav');
 }
 
 console.log('hoi');
