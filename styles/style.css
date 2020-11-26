@@ -7,15 +7,32 @@ CSS Document
   padding: 0;
 }
 
-@font-face{
+/* @font-face{
   font-family: 'Woodford Bourne';
-  src: url("/fonts/woodfordbourne-regular-webfont.woff");
+  src: url("/fonts/WoodfordBournePRO-Regular.otf");
 }
 
 @font-face {
   font-family: 'Woodford Bourne Thin';
-  src: url("/fonts/woodfordbourne-thin-webfont.woff");
-}
+  src: url("/fonts/WoodfordBournePRO-Thin.otf");
+} */
+
+@font-face {
+  font-family: "Woodford Bourne"; 
+  src: url("//db.onlinewebfonts.com/t/ab5835bc2eba54dbb5012336606a5edc.eot"); 
+  src: url("//db.onlinewebfonts.com/t/ab5835bc2eba54dbb5012336606a5edc.eot?#iefix") format("embedded-opentype"), 
+  url("//db.onlinewebfonts.com/t/ab5835bc2eba54dbb5012336606a5edc.woff2") format("woff2"), 
+  url("//db.onlinewebfonts.com/t/ab5835bc2eba54dbb5012336606a5edc.woff") format("woff"), 
+  url("//db.onlinewebfonts.com/t/ab5835bc2eba54dbb5012336606a5edc.ttf") format("truetype"), 
+  url("//db.onlinewebfonts.com/t/ab5835bc2eba54dbb5012336606a5edc.svg#WoodfordBournePROW01-Rg") format("svg"); }
+
+  @font-face {font-family: "Woodford Bourne Thin"; 
+    src: url("//db.onlinewebfonts.com/t/a9fb206b2885ac22d2d6c9dc4a789ace.eot"); 
+    src: url("//db.onlinewebfonts.com/t/a9fb206b2885ac22d2d6c9dc4a789ace.eot?#iefix") format("embedded-opentype"), 
+    url("//db.onlinewebfonts.com/t/a9fb206b2885ac22d2d6c9dc4a789ace.woff2") format("woff2"), 
+    url("//db.onlinewebfonts.com/t/a9fb206b2885ac22d2d6c9dc4a789ace.woff") format("woff"), 
+    url("//db.onlinewebfonts.com/t/a9fb206b2885ac22d2d6c9dc4a789ace.ttf") format("truetype"), 
+    url("//db.onlinewebfonts.com/t/a9fb206b2885ac22d2d6c9dc4a789ace.svg#WoodfordBournePROW01-Light") format("svg"); }
 
 body {
   font-family: 'Woodford Bourne', sans-serif;
@@ -152,10 +169,6 @@ time {
   width: 100%;
 }
 .slider ul {
-  padding: 3em 0 0 0;
-}
-
-.slider-items{
   overflow-x: scroll;
   white-space: nowrap;
   display: block;
@@ -163,7 +176,7 @@ time {
   max-width: 100%;
 }
 
-.slider-items img {
+.slider-items ul li img {
   width: 100%;
   height: 100%;
 }
