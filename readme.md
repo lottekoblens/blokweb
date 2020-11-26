@@ -6,9 +6,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
+1. - https://www.nbthieves.com/ -
+2. - https://www.w3schools.com/css/css_rwd_mediaqueries.asp -
+3. - https://www.w3schools.com/css/css_overflow.asp -
+4. - https://www.w3schools.com/cssref/css3_pr_overflow-x.asp - 
+5. - https://css-tricks.com/snippets/css/a-guide-to-flexbox/ -
 
 
 
@@ -38,22 +40,30 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+- Dit ging goed: Krijg de onderdelen al responsive. Het onderdeel 'news' en 'videos' leek mij erg lastig om te maken, maar nadat ik wat meer had opgezocht over overflow is dit eigenlijk heel erg goed gelukt.
+Dit was lastig: De images van de image slider krijg ik niet op de breedte van het scherm, het hamburgermenu werkend krijgen vind ik ook erg lastig. -
 
 **Screenshot(s):**
 
 -screenshot(s) van hoe ver je bent met korte uitleg-
 
+Homepagina
+De meeste onderdelen zijn al helemaal werkend en responsive. De image slider die moet ik nog maken, dat is me nog niet gelukt. En het hamburgermenu werkt nog niet helemaal.
+<img src="images/Voortgang1-home.png" width="375px" alt="Voortgang 1 homepagina"> 
+
+Pagina Music
+De meeste onderdelen zijn goed uitgelijnd e.d. maar de lijnen die tussen de albums moeten staan zijn nog niet goed. En de buttons die onderaan de pagina staan, zijn ook nog niet op de juiste manier weergegeven.
+<img src="images/Voortgang1-music.png" width="375px" alt="Voortgang 1 music pagina"> 
+
 ### Agenda voor meeting
 
 -samen met je groepje opstellen-
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| an dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
+| student 1      | student 2                            | student 3    | student 4        |
+| hamburgermenu  | flexbox                              | ---          | ---              |
+| dit bespreken  | en dit                               | en ik dit    | en dan ik dat    |
+| an dat ook nog | dit als er tijd is                   | nog een punt | dit wil ik zeker |
+| image slider   | kaart met deels overlappende tekst   | ...          | ...              |
 ### Verslag van meeting
 
 -na afloop snel uitkomsten vastleggen-
