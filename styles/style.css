@@ -9,12 +9,12 @@ CSS Document
 
 @font-face{
   font-family: 'Woodford Bourne';
-  src: url("/fonts/WoodfordBournePRO-Regular.otf");
+  src: url("/fonts/woodfordbourne-regular-webfont.woff");
 }
 
 @font-face {
   font-family: 'Woodford Bourne Thin';
-  src: url("/fonts/WoodfordBournePRO-Thin.otf");
+  src: url("/fonts/woodfordbourne-thin-webfont.woff");
 }
 
 body {
