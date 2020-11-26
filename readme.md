@@ -59,11 +59,11 @@ De meeste onderdelen zijn goed uitgelijnd e.d. maar de lijnen die tussen de albu
 
 -samen met je groepje opstellen-
 
-| student 1      | student 2                            | student 3    | student 4        |
-| hamburgermenu  | flexbox                              | ---          | ---              |
-| dit bespreken  | en dit                               | en ik dit    | en dan ik dat    |
-| an dat ook nog | dit als er tijd is                   | nog een punt | dit wil ik zeker |
-| image slider   | kaart met deels overlappende tekst   | ...          | ...              |
+| Lotte          | Nora                                 | Zara                          | Tamar            |
+| hamburgermenu  | flexbox                              | image slider                  | ---              |
+| dit bespreken  | en dit                               | en ik dit                     | en dan ik dat    |
+| an dat ook nog | dit als er tijd is                   | nog een punt                  | dit wil ik zeker |
+| image slider   | kaart met deels overlappende tekst   | video automatisch afspelen    | ...              |
 ### Verslag van meeting
 
 -na afloop snel uitkomsten vastleggen-
