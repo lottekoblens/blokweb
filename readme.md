@@ -60,10 +60,10 @@ De meeste onderdelen zijn goed uitgelijnd e.d. maar de lijnen die tussen de albu
 -samen met je groepje opstellen-
 
 | Lotte          | Nora                                 | Zara                          | Tamar            |
-| hamburgermenu  | flexbox                              | image slider                  | ---              |
-| dit bespreken  | en dit                               | en ik dit                     | en dan ik dat    |
-| an dat ook nog | dit als er tijd is                   | nog een punt                  | dit wil ik zeker |
-| image slider   | kaart met deels overlappende tekst   | video automatisch afspelen    | ...              |
+| ---            | ---                              | ---                  | ---    |
+| hamburgermenu  | Flexbox                              | image slider                     | hamburgermenu                 |
+|                |                                      |                   |                  |
+| image slider   | kaart met deels overlappende tekst   | video automatisch afspelen    | navigatiebalk    |
 ### Verslag van meeting
 
 -na afloop snel uitkomsten vastleggen-
