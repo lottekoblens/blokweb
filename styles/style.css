@@ -167,32 +167,53 @@ time {
 
 .slider {
   width: 100%;
-}
-.slider ul {
   overflow-x: scroll;
   white-space: nowrap;
   display: block;
   flex-direction: column;
   max-width: 100%;
-}
-
-.slider-items ul li img {
-  width: 100%;
-  height: 100%;
-}
-
-.slider-li {
-  display: inline-block;
-  margin: 0 2em;
-  vertical-align: top;
-  align-items: center;
-  margin-left: 1em;
-}
-
-.slider {
   padding: 0;
   margin: 0;
-  }
+}
+
+.slider li a {
+  font-family: 'Woodford Bourne Thin', sans-serif;
+  border: solid 0.0625em white;
+  border-radius: 0.3125em;
+  padding: 0.6em 1.5em;
+  font-size: 0.9em;
+  background: white;
+  color: black;
+}
+
+.slider li {
+  height: 80vh;
+  display: inline-block;
+  margin: 0;
+  vertical-align: top;
+  align-items: center;
+}
+
+.slider li:nth-of-type(1) {
+  width: 100%;
+  background: url('../images/slider-3.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.slider li:nth-of-type(2) {
+  width: 100%;
+  background: url('../images/slider-2.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.slider li:nth-of-type(3) {
+  width: 100%;
+  background: url('../images/slider-1.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 /* einde slider */
 
@@ -242,12 +263,7 @@ time {
 .more {
   margin: 5em 0;
   width: 10em;
- 
 }
-
-.tour-dates a {
-  color: white;
-  }
 
 .tour-dates li {
   padding-bottom: 0.5em;
@@ -260,6 +276,8 @@ time {
   border-radius: 0.3125em;
   padding: 0.6em 1.5em;
   font-size: 0.9em;
+  background: white;
+  color: black;
 }
 
 .tour-dates ul li:nth-of-type(4) {
@@ -332,7 +350,7 @@ ul {
   max-width: 80%;
 }
 
-.niews {
+.news-item {
   display: inline-block;
   margin: 0 2em;
   vertical-align: top;
@@ -340,12 +358,12 @@ ul {
   margin-left: 1em;
 }
 
-.niews img {
+.news-item img {
   max-width: 100%;
 }
 
 
-.niews h3 {
+.news-item h3 {
   white-space: initial;
 }
 
@@ -362,10 +380,10 @@ ul {
   background: white;
 }
 
-.tour-dates-more, .tour-dates-more a {
+/* .tour-dates-more a {
   background: white;
   color: #232323;
-}
+} */
 
 p.prijs {
   font-weight: bold;
@@ -515,7 +533,7 @@ ol li {
     border-bottom: 0.001em solid rgba(124, 124, 124, 0.25);
     }
 
-  .niews {
+  .news-item {
     width: 90% !important;
   }
 
@@ -544,6 +562,14 @@ ol li {
     align-items: center;
     margin: auto; 
     max-width: 11em;
+  }
+
+  .slider li a {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
   }
 
   .footer-img {
@@ -591,6 +617,7 @@ ol li {
   }
 
   .tour-dates ul {
+    color: white;
     display: flex;
     flex-direction: row;
     font-family: 'Woodford Bourne', sans-serif;
@@ -649,7 +676,7 @@ ol li {
     margin: 6em 2em 6em 2em;
   }
 
-  .niews {
+  .news-item {
     width: 40% !important;
   }
 

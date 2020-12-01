@@ -67,6 +67,7 @@ De meeste onderdelen zijn goed uitgelijnd e.d. maar de lijnen die tussen de albu
 ### Verslag van meeting
 
 -na afloop snel uitkomsten vastleggen-
+image slider kun je oplossen door te kijken naar margin en padding op de ul en li-items.
 
 
 
