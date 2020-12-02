@@ -46,6 +46,8 @@ body {
   margin: 0;
 }
 
+/* begin header */
+
 header {
   position: fixed;
   top: 0;
@@ -62,14 +64,21 @@ header img {
   margin: 1.5em 1.5em 1.5em 1.5em;
 }
 
-header button {
+/* header button {
   background: none;
+  background-image: url('../images/SVG/Button.svg');
+  background-repeat: no-repeat;
   border: none;
-}
+  position: fixed;
+  top: 2vh;
+  right: 3vh;
+  height: 5vh;
+  width: 10vw;
+} */
 
-header button img {
+/* header button img {
   margin: 1em 1em 1em 1em;
-}
+} */
 
 nav {
   display: flex;
@@ -89,15 +98,22 @@ nav {
 	transform:translateX(100%); 
 }
 
-.toonNav {
-  transform:translateX(0%);
-  transition: 0.5s;
+nav ul {
+  margin: 0;
+  padding: 0;
 }
 
 nav button {
+  background: none;
+  background-image: url('../images/SVG/Button.svg');
+  background-repeat: no-repeat;
+  border: none;
   position: fixed;
-  top: 0;
-  right: 0;
+  top: 2vh;
+  right: 3vh;
+  height: 5vh;
+  width: 10vw;
+  z-index: 1;
 }
 
 nav a {
@@ -107,6 +123,13 @@ nav a {
   margin: 0.4rem auto;
   padding: 0.5em 0;
 }
+
+nav .toonNav {
+  transform:translateX(0%);
+  transition: 0.5s;
+}
+
+/* einde header */
 
 a {
   text-decoration: none;

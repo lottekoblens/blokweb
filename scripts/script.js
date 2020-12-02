@@ -1,5 +1,5 @@
 // JavaScript Document
-var deButton = document.querySelector('button');
+var deButton = document.querySelector('nav button');
 deButton.addEventListener("click", linksEnRechts);
 
 function linksEnRechts() {
