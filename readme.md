@@ -11,6 +11,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 3. - https://www.w3schools.com/css/css_overflow.asp -
 4. - https://www.w3schools.com/cssref/css3_pr_overflow-x.asp - 
 5. - https://css-tricks.com/snippets/css/a-guide-to-flexbox/ -
+6. - https://www.w3schools.com/cssref/pr_pos_vertical-align.asp -
 
 
 
