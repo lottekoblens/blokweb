@@ -158,7 +158,7 @@ time {
 .h2-home {
   letter-spacing: 0.1em;
   font-family: 'Woodford Bourne Thin', sans-serif;
-  font-size: 2em;
+  font-size: 2em; 
   font-weight: lighter;
   padding: 3em 0 2.5em 0;
   line-height: 1.22em;
@@ -166,7 +166,7 @@ time {
 
 /* slider */
 
-#home-pagina ul:nth-of-type(1) {
+#homepagina > ul:nth-of-type(1) {
   width: 100%;
   overflow-x: scroll;
   white-space: nowrap;
@@ -176,7 +176,7 @@ time {
   margin: 0;
 }
 
-#home-pagina ul:nth-of-type(1) li {
+#homepagina > ul:nth-of-type(1) li {
   height: 80vh;
   display: inline-block;
   margin: 0;
@@ -186,7 +186,7 @@ Bron:  https://www.w3schools.com/cssref/pr_pos_vertical-align.asp*/
   align-items: center;
 }
 
-#home-pagina ul:nth-of-type(1) li a {
+#homepagina > ul:nth-of-type(1) li a {
   font-family: 'Woodford Bourne Thin', sans-serif;
   border: solid 0.0625em white;
   border-radius: 0.3125em;
@@ -196,76 +196,26 @@ Bron:  https://www.w3schools.com/cssref/pr_pos_vertical-align.asp*/
   color: black;
 }
 
-#home-pagina ul:nth-of-type(1) li:nth-of-type(1) {
+#homepagina > ul:nth-of-type(1) li:nth-of-type(1) {
   width: 100%;
   background: url('../images/slider-3.webp');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-#home-pagina ul:nth-of-type(1) li:nth-of-type(2) {
+#homepagina > ul:nth-of-type(1) li:nth-of-type(2) {
   width: 100%;
   background: url('../images/slider-2.webp');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-#home-pagina ul:nth-of-type(1) li:nth-of-type(3) {
+#homepagina > ul:nth-of-type(1) li:nth-of-type(3) {
   width: 100%;
   background: url('../images/slider-1.webp');
   background-size: cover;
   background-repeat: no-repeat;
 }
-
-/* .slider {
-  width: 100%;
-  overflow-x: scroll;
-  white-space: nowrap;
-  display: block;
-  flex-direction: column;
-  max-width: 100%;
-  padding: 0;
-  margin: 0;
-} */
-
-/* .slider li a {
-  font-family: 'Woodford Bourne Thin', sans-serif;
-  border: solid 0.0625em white;
-  border-radius: 0.3125em;
-  padding: 0.6em 1.5em;
-  font-size: 0.9em;
-  background: white;
-  color: black;
-} */
-
-/* .slider li {
-  height: 80vh;
-  display: inline-block;
-  margin: 0;
-  vertical-align: top;
-  align-items: center;
-} */
-
-/* .slider li:nth-of-type(1) {
-  width: 100%;
-  background: url('../images/slider-3.webp');
-  background-size: cover;
-  background-repeat: no-repeat;
-} */
-
-/* .slider li:nth-of-type(2) {
-  width: 100%;
-  background: url('../images/slider-2.webp');
-  background-size: cover;
-  background-repeat: no-repeat;
-} */
-
-/* .slider li:nth-of-type(3) {
-  width: 100%;
-  background: url('../images/slider-1.webp');
-  background-size: cover;
-  background-repeat: no-repeat;
-} */
 
 /* einde slider */
 
@@ -276,9 +226,6 @@ Bron:  https://www.w3schools.com/cssref/pr_pos_vertical-align.asp*/
 }
 
 /* einde video img */
-
-
-
 
 .moral_panic img {
   width: 80%;
