@@ -177,7 +177,7 @@ time {
 }
 
 #homepagina > ul:nth-of-type(1) li {
-  height: 80vh;
+  height: 90vh;
   display: inline-block;
   margin: 0;
   vertical-align: top;
@@ -260,6 +260,9 @@ Bron:  https://www.w3schools.com/cssref/pr_pos_vertical-align.asp*/
 }
 
 .more {
+  display: block;
+  position: relative;
+  left: 25vw;
   margin: 5em 0;
   width: 10em;
 }
@@ -499,7 +502,7 @@ ol li {
 @media (max-width: 991px) {
  
 
-  .moral_panic article, .new-album article, .albums article{
+  .moral_panic, .new-album article, .albums article{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -609,26 +612,26 @@ ol li {
 
   .slider li:nth-of-type(1) {
     width: 100%;
-    background: url('../images/slider1-groot.webp');
+    background: url('../images/slider1-landscape.webp');
     background-size: cover;
     background-repeat: no-repeat;
   }
   
   .slider li:nth-of-type(2) {
     width: 100%;
-    background: url('../images/slider2-groot.webp');
+    background: url('../images/slider2-landscape.jpg');
     background-size: cover;
     background-repeat: no-repeat;
   }
   
   .slider li:nth-of-type(3) {
     width: 100%;
-    background: url('../images/slider3-groot.jpg');
+    background: url('../images/slider3-landscape.webp');
     background-size: cover;
     background-repeat: no-repeat;
   }
 
-  .moral_panic article {
+  .moral_panic  {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -654,6 +657,11 @@ ol li {
 
   .video-img {
     min-width: 100%;
+  }
+
+  .more {
+    display: block;
+    left: calc(50% - 7em);
   }
 
   .tour-dates {
