@@ -38,6 +38,17 @@ body {
 
 /* begin header */
 
+#homepagina header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  background: white;
+  height: 9vh;
+}
+
 header {
   position: fixed;
   top: 0;
@@ -316,7 +327,7 @@ ul {
   padding-left: 0;
 }
 
-.news-items {
+#homepagina > section:nth-of-type(2) div, #homepagina > section:nth-of-type(3) div {
   overflow-x: scroll;
   white-space: nowrap;
   display: block;
@@ -326,7 +337,7 @@ ul {
   padding: 0 0 1em 0;
 }
 
-.videos {
+#homepagina > section:nth-of-type(3) {
   background: rgb(234, 234, 234);
 }
 
@@ -350,6 +361,14 @@ ul {
 .img-twee img {
   margin: 6em 2em 6em 2em;
   max-width: 80%;
+}
+
+#homepagina > section:nth-of-type(3) div article {
+  display: inline-block;
+  margin: 0 2em;
+  vertical-align: top;
+  align-items: center;
+  margin-left: 1em;
 }
 
 .news-item {
@@ -398,7 +417,7 @@ footer div {
   width: 100%;
 }
 
-.footer-img {
+.footer img {
   border: none;
 }
 
@@ -503,15 +522,29 @@ ol li {
   display: block;
 }
 
+#music-pagina section:nth-of-type(1) article {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
 @media (max-width: 991px) {
  
+  #homepagina header {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  background: white;
+  height: 9vh;
+  }
+
   #music-pagina section:nth-of-type(1) article {
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     align-content: space-between;
-    align-items: center;
-    margin-bottom: 1em;
   }
 
   #music-pagina section:nth-of-type(2) article {
@@ -588,7 +621,7 @@ ol li {
     max-width: 11em;
   }
 
-  .slider li a {
+  #homepagina > ul:nth-of-type(1) li a {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -639,21 +672,21 @@ ol li {
   /* codepen Mediaqueries oefening 3 geraadpleegd voor de nav */
   /* einde nav */
 
-  .slider li:nth-of-type(1) {
+  #homepagina > ul:nth-of-type(1) li:nth-of-type(1) {
     width: 100%;
     background: url('../images/slider1-landscape.webp');
     background-size: cover;
     background-repeat: no-repeat;
   }
   
-  .slider li:nth-of-type(2) {
+  #homepagina > ul:nth-of-type(1) li:nth-of-type(2) {
     width: 100%;
     background: url('../images/slider2-landscape.jpg');
     background-size: cover;
     background-repeat: no-repeat;
   }
   
-  .slider li:nth-of-type(3) {
+  #homepagina > ul:nth-of-type(1) li:nth-of-type(3) {
     width: 100%;
     background: url('../images/slider3-landscape.webp');
     background-size: cover;
@@ -775,12 +808,8 @@ ol li {
 
   #music-pagina section:nth-of-type(1) article {
     width: 90%;
-    display: flex;
-    flex-direction: row;
     justify-content: space-around;
     align-content: center;
-    align-items: center;
-    margin-bottom: 1em;
     padding: 2rem 1rem 2rem;
   }
 
@@ -801,5 +830,10 @@ ol li {
 
   #music-pagina section:nth-of-type(2) img {
     max-width: 30%;
+  }
+
+  .onder-elkaar{
+    max-width: 18%;
+    min-width: 18%;
   }
 }
