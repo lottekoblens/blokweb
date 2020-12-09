@@ -238,7 +238,7 @@ Bron:  https://www.w3schools.com/cssref/pr_pos_vertical-align.asp*/
 
 /* video img */
 
-#homepagina a:nth-of-type(1) img{
+#homepagina > a:nth-of-type(1) img{
   padding: 0 0 7.5em;
 }
 /* einde video img */
@@ -359,20 +359,20 @@ ul {
   width: 90%;
 }
 
-.img-een {
+.twee-images div:nth-of-type(1) {
   background: rgb(234, 234, 234);
 }
 
-.img-een img {
+.twee-images div:nth-of-type(1) img {
   margin: 8em 2em 6em 2em;
   max-width: 80%;
 }
 
-.img-twee {
+.twee-images div:nth-of-type(2) {
   background: black;
 }
 
-.img-twee img {
+.twee-images div:nth-of-type(2) img {
   margin: 6em 2em 6em 2em;
   max-width: 80%;
 }
@@ -797,7 +797,7 @@ ol li {
     align-content: center;
   }
 
-  .img-een, .img-twee {
+  .twee-images div:nth-of-type(1), .twee-images div:nth-of-type(2) {
     width: 80%;
   }
 
