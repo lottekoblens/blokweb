@@ -241,6 +241,37 @@ time {
 
 /*      slider      */
 
+@keyframes pijltje-groter {
+  0% {
+    transform:scale(1);
+  }
+  50% {
+    transform: scale(2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+#homepagina > ul:nth-of-type(1) button.klikt {
+  animation-name: pijltje-groter;
+  animation-duration: .5s;
+}
+
+#homepagina > ul:nth-of-type(1) button {
+  position: absolute;
+  top: 45vh;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 2em;
+}
+
+#homepagina > ul:nth-of-type(1) button:nth-of-type(2) {
+  position: absolute;
+  right: 0%;
+}
+
 #homepagina > ul:nth-of-type(1) {
   width: 100%;
   overflow-x: scroll;
