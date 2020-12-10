@@ -57,9 +57,9 @@ De music pagina is ook al voor het grootste gedeelte af, maar ik wil er nog voor
 
 | Lotte          | Nora                                 | Zara                          | Tamar            |
 | ---            | ---                              | ---                  | ---    |
-| margin weghalen op music pagina  | gebruik classes en divs                              | image slider                     | hamburgermenu                 |
+| margin weghalen op music pagina  | gebruik classes en divs                              | stylen tweede pagina                    | navigatiebalk                 |
 |                |                                      |                   |                  |
-| knoppen onderaan music pagina  | tekstblokken die niet lukken  | video automatisch afspelen    | navigatiebalk    |
+| knoppen onderaan music pagina  | tekstblokken die niet lukken  |     | animatie    |
 ### Verslag van meeting
 
 -na afloop snel uitkomsten vastleggen-
