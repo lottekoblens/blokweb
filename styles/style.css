@@ -560,7 +560,6 @@ ol li {
   justify-content: center;
   align-content: space-between;
   align-items: center;
-  margin-bottom: 1em;
 }
 
 #music-pagina > section:nth-of-type(2) article div {
@@ -624,11 +623,8 @@ ol li {
   /*      homepagina slider       */
 
   #homepagina > ul:nth-of-type(1) li a {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
+    position: relative;
+    top: 70%;
   }
 
   /*      einde homepagina slider       */
@@ -744,6 +740,11 @@ ol li {
   /*      einde nav       */
 
   /*      homepagina slider       */
+
+  #homepagina > ul:nth-of-type(1) li a {
+    position: relative;
+    top: 70%;
+  }
 
   #homepagina > ul:nth-of-type(1) li:nth-of-type(1) {
     width: 100%;
