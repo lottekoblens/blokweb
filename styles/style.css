@@ -87,6 +87,20 @@ overflow: hidden;
 padding-left: 0;
 }
 
+hr {
+  display: block;
+  margin: 0 10em;
+  color: #695340;
+}
+
+#homepagina ul:nth-of-type(1) li a:hover, #homepagina article:nth-of-type(1) a:hover, #homepagina > a:nth-of-type(2):hover, 
+.tour-dates-more:hover, .link-more:hover, .listen-music:hover {
+  background: rgb(227, 67, 9); 
+  color: white;
+  border: 0.01em solid transparent;
+  transition: ease-in-out .4s; 
+}
+
 /*       einde body       */
 
 /*      begin header      */
@@ -157,6 +171,7 @@ nav a {
   font-size: 1.2em;
   margin: 0.4rem auto;
   padding: 0.5em 0;
+  border: none;
 }
 
 nav.toonNav ul {
@@ -181,13 +196,27 @@ footer {
   right: 0;
   left: 0;
 }
-footer div {
+/* footer div {
   background: #232323;
   width: 100%;
+} */
+
+footer ul {
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+  max-width: 100%;
+  margin: 0;
 }
 
-.footer img {
-  border: none;
+footer ul li {
+margin-right: 4em;
+}
+
+footer ul li img {
+  height: 3vh;
 }
 
 footer a {
@@ -246,14 +275,23 @@ time {
     transform:scale(1);
   }
   50% {
-    transform: scale(2);
+    transform: scale(5);
+    color: black;
+  }
+  55% {
+    transform: rotate(180deg);
+    color: black;
   }
   100% {
     transform: scale(1);
   }
 }
 
-#homepagina > ul:nth-of-type(1) button.klikt {
+button:hover {
+  cursor: pointer;
+}
+
+#homepagina > ul:nth-of-type(1) button.klikt, #homepagina > ul:nth-of-type(2) button.klikt {
   animation-name: pijltje-groter;
   animation-duration: .5s;
 }
@@ -265,6 +303,8 @@ time {
   border: none;
   color: white;
   font-size: 2em;
+  appearance: none;
+  outline: none;
 }
 
 #homepagina > ul:nth-of-type(1) button:nth-of-type(2) {
@@ -468,24 +508,27 @@ Bron:  https://www.w3schools.com/cssref/pr_pos_vertical-align.asp*/
 .twee-images {
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 .twee-images div:nth-of-type(1) {
   background: rgb(234, 234, 234);
+  width: 100%;
 }
 
 .twee-images div:nth-of-type(1) img {
   margin: 8em 2em 6em 2em;
-  max-width: 80%;
+  width: 80%;
 }
 
 .twee-images div:nth-of-type(2) {
   background: black;
+  width: 100%;
 }
 
 .twee-images div:nth-of-type(2) img {
   margin: 6em 2em 6em 2em;
-  max-width: 80%;
+  width: 80%;
 }
 
 /*       einde homepagina 2 afbeeldingen       */
@@ -539,7 +582,6 @@ Bron:  https://www.w3schools.com/cssref/pr_pos_vertical-align.asp*/
 #music-pagina section:nth-of-type(1) {
   background: rgb(234, 234, 234);
   text-align: center;
-  border-bottom: 1px solid #695340;
 }
 
 #music-pagina section:nth-of-type(1) img {
@@ -554,7 +596,7 @@ Bron:  https://www.w3schools.com/cssref/pr_pos_vertical-align.asp*/
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  margin-bottom: 1em;
+  margin-bottom: 0;
 }
 
 .listen-music {
@@ -608,10 +650,6 @@ ol li {
   max-width: 80%;
 }
 
-#music-pagina > section:nth-of-type(2) article {
-  border-bottom: 1px solid #695340;
-}
-
 #music-pagina > section:nth-of-type(2) article:last-of-type{
   border: none;
   margin-bottom: 0;
@@ -647,6 +685,10 @@ ol li {
   width: 100vw;
   background: white;
   height: 9vh;
+  }
+
+  nav ul li a.selected {
+    color: rgb(227, 67, 9);
   }
 
   /*      einde homepagina header       */
@@ -710,11 +752,16 @@ ol li {
 
   /*      einde homepagina shop       */
 
+  hr {
+    margin: 0 1.5em;
+  }
+
   /*      music pagina moral panic album      */
 
   #music-pagina section:nth-of-type(1) article {
     justify-content: center;
     align-content: space-between;
+    margin-bottom: 4em;
   }
 
   #music-pagina section:nth-of-type(1) img {
@@ -730,6 +777,14 @@ ol li {
   }
 
   /*      einde music pagina albums onder elkaar      */
+
+  /* footer  */
+
+  footer ul li {
+    margin-right: 2em;
+    }
+
+  /* einde footer */
 }
 
 @media (min-width: 992px) {
@@ -765,6 +820,17 @@ ol li {
 
   nav ul li {
     padding: 1em;
+  }
+
+  nav ul li:hover {
+    background: rgb(227, 67, 9);
+    border: none;
+    transition: ease 0.2s;
+  }
+
+  nav ul li a:hover {
+    color: white;
+    border: none;
   }
 
   /* codepen Mediaqueries oefening 3 geraadpleegd voor de nav */
@@ -900,13 +966,16 @@ ol li {
   }
 
   .twee-images div:nth-of-type(1), .twee-images div:nth-of-type(2) {
-    width: 80%;
+    width: 100%;
   }
-
-  .twee-images img {
+  
+  .twee-images div:nth-of-type(2) img {
+    margin: 8em 2em 6em 2em;
+  }
+  /* .twee-images img {
     width: 60%;
     margin: 6em 2em 6em 2em;
-  }
+  } */
 
   /*      einde homepagina 2 afbeeldingen       */
 
@@ -953,7 +1022,7 @@ ol li {
   }
 
   #music-pagina section:nth-of-type(2) article {
-    width: 90%;
+    width: 100%;
     justify-content: space-around;
     align-content: center;
     align-items: center;

@@ -30,7 +30,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -same as voortgang 1-
 
+## verslag screenreader
 
+Als je door het navigatiemenu heen tabt dan vertelt de screenreader je dat je je op een link bevindt en leest dan de titel van de link voor, volgens mij is dit wel duidelijk en goed voor het gebruik van een screenreader. Hetzelfde geldt voor de andere links.
 
 ## Voortgang 2 (week 5)
 
@@ -63,7 +65,7 @@ De music pagina is ook al voor het grootste gedeelte af, maar ik wil er nog voor
 ### Verslag van meeting
 
 -na afloop snel uitkomsten vastleggen-
-
+Goede meeting, problemen die ik had zijn opgelost.
 
 ## Voortgang 1 (week 3)
 

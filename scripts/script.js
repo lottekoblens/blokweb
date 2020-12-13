@@ -11,16 +11,28 @@ function linksEnRechts(event) {
 // einde navigatie menu
 
 // image slider
-var pijlButton = document.querySelector("#homepagina > ul:nth-of-type(1) button");
-pijlButton.addEventListener("click", pijlGroter);
+var pijlLinksButton = document.querySelector("#homepagina > ul:nth-of-type(1) button");
+pijlLinksButton.addEventListener("click", pijlLinksGroter);
 
-function pijlGroter() {
-    pijlButton.classList.add("klikt");
-    window.setTimeout(remove, 500);
+function pijlLinksGroter() {
+    pijlLinksButton.classList.add("klikt");
+    window.setTimeout(removeLinks, 500);
 }
 
-function remove() {
-    pijlButton.classList.remove("klikt");
+function removeLinks() {
+    pijlLinksButton.classList.remove("klikt");
+}
+
+var pijlRechtsButton = document.querySelector("#homepagina > ul:nth-of-type(1) button:nth-of-type(2)");
+pijlRechtsButton.addEventListener("click", pijlRechtsGroter);
+
+function pijlRechtsGroter() {
+    pijlRechtsButton.classList.add("klikt");
+    window.setTimeout(removeRechts, 500);
+}
+
+function removeRechts() {
+    pijlRechtsButton.classList.remove("klikt");
 }
 
 console.log('hoi');
