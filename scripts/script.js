@@ -35,4 +35,5 @@ function removeRechts() {
     pijlRechtsButton.classList.remove("klikt");
 }
 
+
 console.log('hoi');

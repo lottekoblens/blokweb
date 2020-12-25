@@ -324,6 +324,7 @@ button:hover {
 
 #homepagina > ul:nth-of-type(1) li {
   height: 90vh;
+  width: 20%;
   display: inline-block;
   margin: 0;
   vertical-align: top;
@@ -635,11 +636,19 @@ ol li {
   align-items: center;
 }
 
-#music-pagina > section:nth-of-type(2) article div {
+#music-pagina > section:nth-of-type(2) article div:nth-of-type(1) {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
+/* #music-pagina > section:nth-of-type(2) > article > div.knopjes {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-between;
+  justify-content: center;
+  width: 100%;
+} */
 
 #music-pagina > section:nth-of-type(2) {
   background: rgb(234, 234, 234);
@@ -650,7 +659,7 @@ ol li {
   max-width: 80%;
 }
 
-#music-pagina > section:nth-of-type(2) article:last-of-type{
+#music-pagina > section:nth-of-type(2) article:last-of-type {
   border: none;
   margin-bottom: 0;
 }
@@ -824,6 +833,7 @@ ol li {
 
   nav ul li:hover {
     background: rgb(227, 67, 9);
+    color: white;
     border: none;
     transition: ease 0.2s;
   }
@@ -1038,6 +1048,26 @@ ol li {
     max-width: 18%;
     min-width: 18%;
   }
+
+  #music-pagina section:nth-of-type(2) article div div {
+    max-width: 80%;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  #music-pagina section:nth-of-type(2) article div div a {
+    margin: 1em 1em;
+  }
+
+  /* #music-pagina > section:nth-of-type(2) > article > div.knopjes {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-between;
+  justify-content: center;
+  width: 100%;
+} */
 
   /*      einde music pagina albums onder elkaar      */
 }
