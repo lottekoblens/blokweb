@@ -35,5 +35,18 @@ function removeRechts() {
     pijlRechtsButton.classList.remove("klikt");
 }
 
+var sliderRechts = document.querySelector("#homepagina > ul:nth-of-type(1) button:nth-of-type(2)");
+var sliderRechtsList = document.querySelector("#homepagina > ul:nth-of-type(1) li");
+sliderRechts.addEventListener("click", sliderNaarRechts);
+
+function sliderNaarRechts() {
+    sliderRechtsList.classList.add("klikt-rechts");
+    window.setTimeout(removeSliderRechts, 500);
+}
+
+function removeSliderRechts() {
+    sliderRechtsList.classList.remove("klikt-rechts");
+}
+
 
 console.log('hoi');
