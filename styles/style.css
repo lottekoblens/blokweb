@@ -705,7 +705,7 @@ ol li {
 }
 
 #music-pagina > section:nth-of-type(2) img {
-  max-width: 80%;
+  width: 80%;
 }
 
 #music-pagina > section:nth-of-type(2) article:last-of-type {
@@ -726,6 +726,24 @@ ol li {
   padding: 0;
   margin: 0.75em 0 2em 0;
   line-height: 1.22em;
+}
+
+#music-pagina section:nth-of-type(2) article div div {
+  flex-flow: row wrap !important;
+  align-content: space-between;
+  justify-content: center;
+  width: 180%;
+}
+
+#music-pagina section:nth-of-type(2) article div div a {
+  margin: 0.2em;
+  padding: 0.4375em 1.25em;
+  min-width: 20%;
+}
+
+#music-pagina section:nth-of-type(2) article div div a img {
+  margin-right: 0.5em;
+  width: 0.85vw;
 }
 
 /*      einde music pagina albums onder elkaar       */
@@ -830,8 +848,27 @@ ol li {
 
   /*      music pagina albums onder elkaar      */
 
-  #music-pagina section:nth-of-type(2) img {
+  #music-pagina section:nth-of-type(2) > img {
     min-width: 50vw;
+  }
+
+  #music-pagina section:nth-of-type(2) article div div {
+    width: 100%;
+    flex-flow: row wrap !important;
+    align-content: space-between;
+    justify-content: center;
+    margin-bottom: 5em;
+  }
+
+  #music-pagina section:nth-of-type(2) article div div a {
+    min-width: 50%;
+    padding: 0.5em 0.05em;
+    margin: 0.5em 0;
+  }
+  
+  #music-pagina section:nth-of-type(2) article div div a img {
+    margin-right: 0.5em;
+    width: 0.8em;
   }
 
   /*      einde music pagina albums onder elkaar      */
@@ -1077,7 +1114,6 @@ ol li {
   }
 
   #music-pagina section:nth-of-type(2) article {
-    width: 100%;
     justify-content: space-around;
     align-content: center;
     align-items: center;
@@ -1091,24 +1127,6 @@ ol li {
 
   #music-pagina section:nth-of-type(2) article div {
     width: 20%;
-  }
-
-  #music-pagina section:nth-of-type(2) article div div {
-    flex-flow: row wrap !important;
-    align-content: space-between;
-    justify-content: center;
-    width: 180%;
-  }
-
-  #music-pagina section:nth-of-type(2) article div div a {
-    margin: 0.2em;
-    padding: 0.4375em 1.25em;
-    min-width: 20%;
-  }
-
-  #music-pagina section:nth-of-type(2) article div div a img {
-    margin-right: 0.5em;
-    width: 0.85vw;
   }
 
   /*      einde music pagina albums onder elkaar      */
