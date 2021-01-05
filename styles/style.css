@@ -279,6 +279,21 @@ time {
   }
   33% {
     transform: translateX(-100%);
+  }
+  66% {
+    transform: translateX(-200%);
+  }
+  99% {
+    transform: translateX(-300%);
+  }
+}
+
+@-webkit-keyframes slider-rechts {
+  0% {
+    transform: translateX(0);
+  }
+  33% {
+    transform: translateX(-100%);
     background: url('../images/slider-2.webp');
   }
   66% {
@@ -683,17 +698,10 @@ ol li {
   align-items: center;
 }
 
-/* #music-pagina > section:nth-of-type(2) > article > div.knopjes {
-  display: flex;
-  flex-flow: row wrap;
-  align-content: space-between;
-  justify-content: center;
-  width: 100%;
-} */
-
 #music-pagina > section:nth-of-type(2) {
   background: rgb(234, 234, 234);
   text-align: center;
+  width: calc(100% -2rem);
 }
 
 #music-pagina > section:nth-of-type(2) img {
@@ -1023,10 +1031,6 @@ ol li {
   .twee-images div:nth-of-type(2) img {
     margin: 8em 2em 6em 2em;
   }
-  /* .twee-images img {
-    width: 60%;
-    margin: 6em 2em 6em 2em;
-  } */
 
   /*      einde homepagina 2 afbeeldingen       */
 
@@ -1086,29 +1090,26 @@ ol li {
   }
 
   #music-pagina section:nth-of-type(2) article div {
-    max-width: 18%;
-    min-width: 18%;
+    width: 20%;
   }
 
   #music-pagina section:nth-of-type(2) article div div {
-    max-width: 80%;
-    flex-wrap: wrap;
-    align-content: center;
+    flex-flow: row wrap !important;
+    align-content: space-between;
     justify-content: center;
-    width: 100%;
+    width: 180%;
   }
 
   #music-pagina section:nth-of-type(2) article div div a {
-    margin: 1em 1em;
+    margin: 0.2em;
+    padding: 0.4375em 1.25em;
+    min-width: 20%;
   }
 
-  /* #music-pagina > section:nth-of-type(2) > article > div.knopjes {
-  display: flex;
-  flex-flow: row wrap;
-  align-content: space-between;
-  justify-content: center;
-  width: 100%;
-} */
+  #music-pagina section:nth-of-type(2) article div div a img {
+    margin-right: 0.5em;
+    width: 0.85vw;
+  }
 
   /*      einde music pagina albums onder elkaar      */
 }
