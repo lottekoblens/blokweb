@@ -97,8 +97,8 @@ hr {
 .tour-dates-more:hover, .link-more:hover, .listen-music:hover {
   background: rgb(227, 67, 9); 
   color: white;
-  border: 0.01em solid transparent;
-  transition: ease-in-out .4s; 
+  border: none;
+  transition: ease-in-out .3s; 
 }
 
 /*       einde body       */
@@ -113,7 +113,7 @@ hr {
   align-items: center;
   width: 100vw;
   background: white;
-  height: 9vh;
+  height: 5em;
 }
 
 header {
@@ -124,7 +124,7 @@ header {
   align-items: center;
   width: 100vw;
   background: white;
-  height: 9vh;
+  height: 5em;
 }
 
 header img {
