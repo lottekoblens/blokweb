@@ -16,15 +16,18 @@ CSS Document
   url("//db.onlinewebfonts.com/t/ab5835bc2eba54dbb5012336606a5edc.woff2") format("woff2"), 
   url("//db.onlinewebfonts.com/t/ab5835bc2eba54dbb5012336606a5edc.woff") format("woff"), 
   url("//db.onlinewebfonts.com/t/ab5835bc2eba54dbb5012336606a5edc.ttf") format("truetype"), 
-  url("//db.onlinewebfonts.com/t/ab5835bc2eba54dbb5012336606a5edc.svg#WoodfordBournePROW01-Rg") format("svg"); }
+  url("//db.onlinewebfonts.com/t/ab5835bc2eba54dbb5012336606a5edc.svg#WoodfordBournePROW01-Rg") format("svg"); 
+}
 
-  @font-face {font-family: "Woodford Bourne Thin"; 
-    src: url("//db.onlinewebfonts.com/t/a9fb206b2885ac22d2d6c9dc4a789ace.eot"); 
-    src: url("//db.onlinewebfonts.com/t/a9fb206b2885ac22d2d6c9dc4a789ace.eot?#iefix") format("embedded-opentype"), 
-    url("//db.onlinewebfonts.com/t/a9fb206b2885ac22d2d6c9dc4a789ace.woff2") format("woff2"), 
-    url("//db.onlinewebfonts.com/t/a9fb206b2885ac22d2d6c9dc4a789ace.woff") format("woff"), 
-    url("//db.onlinewebfonts.com/t/a9fb206b2885ac22d2d6c9dc4a789ace.ttf") format("truetype"), 
-    url("//db.onlinewebfonts.com/t/a9fb206b2885ac22d2d6c9dc4a789ace.svg#WoodfordBournePROW01-Light") format("svg"); }
+@font-face {
+  font-family: "Woodford Bourne Thin"; 
+  src: url("//db.onlinewebfonts.com/t/a9fb206b2885ac22d2d6c9dc4a789ace.eot"); 
+  src: url("//db.onlinewebfonts.com/t/a9fb206b2885ac22d2d6c9dc4a789ace.eot?#iefix") format("embedded-opentype"), 
+  url("//db.onlinewebfonts.com/t/a9fb206b2885ac22d2d6c9dc4a789ace.woff2") format("woff2"), 
+  url("//db.onlinewebfonts.com/t/a9fb206b2885ac22d2d6c9dc4a789ace.woff") format("woff"), 
+  url("//db.onlinewebfonts.com/t/a9fb206b2885ac22d2d6c9dc4a789ace.ttf") format("truetype"), 
+  url("//db.onlinewebfonts.com/t/a9fb206b2885ac22d2d6c9dc4a789ace.svg#WoodfordBournePROW01-Light") format("svg"); 
+}
 
 /*      einde font       */
 
@@ -265,6 +268,10 @@ time {
 }
 
 /*      slider      */
+#homepagina > ul:nth-of-type(1) li.klikt-rechts {
+  animation-name: slider-rechts;
+  animation-duration: .5s;
+}
 
 @keyframes slider-rechts {
   0% {
@@ -272,6 +279,7 @@ time {
   }
   33% {
     transform: translateX(-100%);
+    background: url('../images/slider-2.webp');
   }
   66% {
     transform: translateX(-200%);
@@ -279,6 +287,15 @@ time {
   99% {
     transform: translateX(-300%);
   }
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+#homepagina > ul:nth-of-type(1) button.klikt, #homepagina > ul:nth-of-type(2) button.klikt {
+  animation-name: pijltje-groter;
+  animation-duration: .5s;
 }
 
 @keyframes pijltje-groter {
@@ -298,20 +315,6 @@ time {
   }
 }
 
-#homepagina > ul:nth-of-type(1) li.klikt-rechts {
-  animation-name: slider-rechts;
-  animation-duration: .5s;
-}
-
-button:hover {
-  cursor: pointer;
-}
-
-#homepagina > ul:nth-of-type(1) button.klikt, #homepagina > ul:nth-of-type(2) button.klikt {
-  animation-name: pijltje-groter;
-  animation-duration: .5s;
-}
-
 #homepagina > ul:nth-of-type(1) button {
   position: absolute;
   top: 45vh;
@@ -321,6 +324,27 @@ button:hover {
   font-size: 2em;
   appearance: none;
   outline: none;
+  animation-name: onthul-pijltje;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+@keyframes onthul-pijltje {
+  0% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 0.5;
+  }
+  95% {
+    opacity: 0.7;
+  }
+  97% {
+    opacity: 0.85;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 #homepagina > ul:nth-of-type(1) button:nth-of-type(2) {
