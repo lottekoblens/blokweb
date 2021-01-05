@@ -96,12 +96,29 @@ hr {
   color: #695340;
 }
 
-#homepagina ul:nth-of-type(1) li a:hover, #homepagina article:nth-of-type(1) a:hover, #homepagina > a:nth-of-type(2):hover, 
-.tour-dates-more:hover, .link-more:hover, .listen-music:hover {
+header nav ul li:hover, #homepagina ul:nth-of-type(1) li a:hover, #homepagina article:nth-of-type(1) a:hover, #homepagina > a:nth-of-type(2):hover, 
+.tour-dates-more:hover, .link-more:hover, .listen-music:hover, button:hover {
   background: rgb(227, 67, 9); 
   color: white;
   border: none;
   transition: ease-in-out .3s; 
+}
+
+header nav ul li:active, #homepagina ul:nth-of-type(1) li a:active, #homepagina article:nth-of-type(1) a:active, #homepagina > a:nth-of-type(2):active, 
+.tour-dates-more:active, .link-more:active, .listen-music:active {
+  background: rgb(222, 132, 100);
+  color: white;
+  border: 0.01em solid black;
+}
+
+header a:nth-of-type(1):focus, header nav ul li:focus, #homepagina ul:nth-of-type(1) li a:focus, #homepagina article:nth-of-type(1) a:focus, #homepagina > a:nth-of-type(2):focus, 
+.tour-dates-more:focus, .link-more:focus, .listen-music:focus, #homepagina section:nth-of-type(1) a ul:focus, #homepagina section:nth-of-type(1) a ul:focus, button:focus {
+  outline: none !important;
+  border: 0.3em solid darkred !important;
+}
+
+footer ul a li img:hover {
+  fill: rgb(227, 67, 9);
 }
 
 /*       einde body       */
@@ -218,6 +235,10 @@ footer ul li img {
   height: 3vh;
 }
 
+footer ul a {
+  background: none;
+}
+
 footer a {
   background: #e0e0e0;
   max-width: 100%;
@@ -302,10 +323,6 @@ time {
   99% {
     transform: translateX(-300%);
   }
-}
-
-button:hover {
-  cursor: pointer;
 }
 
 #homepagina > ul:nth-of-type(1) button.klikt, #homepagina > ul:nth-of-type(2) button.klikt {
@@ -915,18 +932,6 @@ ol li {
 
   nav ul li {
     padding: 1em;
-  }
-
-  nav ul li:hover {
-    background: rgb(227, 67, 9);
-    color: white;
-    border: none;
-    transition: ease 0.2s;
-  }
-
-  nav ul li a:hover {
-    color: white;
-    border: none;
   }
 
   /* codepen Mediaqueries oefening 3 geraadpleegd voor de nav */
