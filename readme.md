@@ -28,7 +28,34 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+### Stand van zaken
+
+- Dit ging goed: 
+- Dit was lastig: De image slider krijg ik niet werkende, dus dat is best wel frustrerend. 
+
+**Screenshot(s):**
+
+-screenshots van hoe ver je bent met korte uitleg-
+
+Homepagina
+Op de homepagina moet eigenlijk alleen de image slider nog worden uitgewerkt en ik moet nog een animatie daaraan toevoegen.
+De hover, focus en active state moet ik nog uitwerken. En bij de footer gaat er nog iets mis om mobiel formaat.
+<img src="./images/voortgang-week6-home.png" width="375px" alt="Voortgang 3 homepagina"> 
+
+Pagina Music
+De music pagina is ook al voor het grootste gedeelte af. Helemaal onderaan de pagina staan vier buttons die ik op een andere manier nog moet posioneren.
+<img src="./images/voortgang2-music.png" width="375px" alt="Voortgang 3 music pagina"> 
+
+### Agenda voor meeting
+
+-samen met je groepje opstellen-
+
+Ik ben niet bij de meeting met het groepje geweest, omdat ik werd geopereerd. Ik heb een apart gesprek gehad met de docent.
+
+### Verslag van meeting
+
+-na afloop snel uitkomsten vastleggen-
+Besproken welke onderdelen er nog niet af zijn en daar hulp bij gevraagd waardoor ik die onderdelen wel als het goed is werkende kan krijgen.
 
 ## verslag screenreader
 

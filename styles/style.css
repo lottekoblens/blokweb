@@ -96,23 +96,25 @@ hr {
   color: #695340;
 }
 
-header nav ul li:hover, #homepagina ul:nth-of-type(1) li a:hover, #homepagina article:nth-of-type(1) a:hover, #homepagina > a:nth-of-type(2):hover, 
-.tour-dates-more:hover, .link-more:hover, .listen-music:hover, button:hover {
+ header nav ul li:hover, #homepagina ul:nth-of-type(1) li a:hover, #homepagina article:nth-of-type(1) a:hover, #homepagina > a:nth-of-type(2):hover, 
+.tour-dates-more:hover, .link-more:hover, .listen-music:hover, #homepagina section:nth-of-type(1) a ul:hover, #homepagina section:nth-of-type(1) a ul:hover, #homepagina ul button:hover,
+footer ul li img:hover, footer > a:hover{
   background: rgb(227, 67, 9); 
   color: white;
   border: none;
   transition: ease-in-out .3s; 
 }
 
-header nav ul li:active, #homepagina ul:nth-of-type(1) li a:active, #homepagina article:nth-of-type(1) a:active, #homepagina > a:nth-of-type(2):active, 
-.tour-dates-more:active, .link-more:active, .listen-music:active {
+header a:nth-of-type(1):active, header nav ul li:active, #homepagina ul:nth-of-type(1) li a:active, #homepagina article:nth-of-type(1) a:active, #homepagina > a:nth-of-type(2):active, 
+.tour-dates-more:active, .link-more:active, .listen-music:active, #homepagina section:nth-of-type(1) a ul:active, #homepagina section:nth-of-type(1) a ul:active, #homepagina ul button:active,
+footer ul li img:active, footer > a:active  {
   background: rgb(222, 132, 100);
   color: white;
-  border: 0.01em solid black;
 }
 
 header a:nth-of-type(1):focus, header nav ul li:focus, #homepagina ul:nth-of-type(1) li a:focus, #homepagina article:nth-of-type(1) a:focus, #homepagina > a:nth-of-type(2):focus, 
-.tour-dates-more:focus, .link-more:focus, .listen-music:focus, #homepagina section:nth-of-type(1) a ul:focus, #homepagina section:nth-of-type(1) a ul:focus, button:focus {
+.tour-dates-more:focus, .link-more:focus, .listen-music:focus, #homepagina section:nth-of-type(1) a ul:focus, #homepagina section:nth-of-type(1) a ul:focus, #homepagina ul button:focus,
+footer ul li img:focus, footer > a:focus {
   outline: none !important;
   border: 0.3em solid darkred !important;
 }
@@ -176,6 +178,7 @@ nav button {
   background-repeat: no-repeat;
   border: none;
   appearance: none;
+  outline: none;
   cursor: pointer;
   position: fixed;
   top: 2vh;
@@ -225,13 +228,14 @@ footer ul {
   height: 15vh;
   max-width: 100%;
   margin: 0;
+  padding-left: 1.5em;
 }
 
-footer ul li {
+footer ul a li {
   margin-right: 4em;
 }
 
-footer ul li img {
+footer ul a li img {
   height: 3vh;
 }
 
@@ -239,7 +243,7 @@ footer ul a {
   background: none;
 }
 
-footer a {
+footer > a {
   background: #e0e0e0;
   max-width: 100%;
   text-align: center;
@@ -605,6 +609,8 @@ Bron:  https://www.w3schools.com/cssref/pr_pos_vertical-align.asp*/
   width: 80%;
 }
 
+
+
 /*       einde homepagina 2 afbeeldingen       */
 
 /*      homepagina shop       */
@@ -892,7 +898,7 @@ ol li {
 
   /* footer  */
 
-  footer ul li {
+  footer ul a li {
     margin-right: 2em;
     }
 
