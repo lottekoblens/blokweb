@@ -57,6 +57,12 @@ body {
   background: white;
 }
 
+:root {
+  --brownred: #e34309;
+  --lightgrey: #eaeaea;
+}
+/*    deze bron geraadpleegd om css variabelen te kunnen gebruiken: https://www.w3schools.com/css/css3_variables.asp    */
+
 a {
   text-decoration: none;
   color: black;
@@ -96,10 +102,10 @@ hr {
   color: #695340;
 }
 
- header nav ul li:hover, #homepagina ul:nth-of-type(1) li a:hover, #homepagina article:nth-of-type(1) a:hover, #homepagina > a:nth-of-type(2):hover, 
+header nav ul li:hover, #homepagina ul:nth-of-type(1) li a:hover, #homepagina article:nth-of-type(1) a:hover, #homepagina > a:nth-of-type(2):hover, 
 .tour-dates-more:hover, .link-more:hover, .listen-music:hover, #homepagina section:nth-of-type(1) a ul:hover, #homepagina section:nth-of-type(1) a ul:hover, #homepagina ul button:hover,
 footer ul li img:hover, footer > a:hover{
-  background: rgb(227, 67, 9); 
+  background: var(--brownred);
   color: white;
   border: none;
   transition: ease-in-out .3s; 
@@ -108,8 +114,9 @@ footer ul li img:hover, footer > a:hover{
 header a:nth-of-type(1):active, header nav ul li:active, #homepagina ul:nth-of-type(1) li a:active, #homepagina article:nth-of-type(1) a:active, #homepagina > a:nth-of-type(2):active, 
 .tour-dates-more:active, .link-more:active, .listen-music:active, #homepagina section:nth-of-type(1) a ul:active, #homepagina section:nth-of-type(1) a ul:active, #homepagina ul button:active,
 footer ul li img:active, footer > a:active  {
-  background: rgb(222, 132, 100);
+  background: #de8564;
   color: white;
+  outline: none;
 }
 
 header a:nth-of-type(1):focus, header nav ul li:focus, #homepagina ul:nth-of-type(1) li a:focus, #homepagina article:nth-of-type(1) a:focus, #homepagina > a:nth-of-type(2):focus, 
@@ -117,10 +124,6 @@ header a:nth-of-type(1):focus, header nav ul li:focus, #homepagina ul:nth-of-typ
 footer ul li img:focus, footer > a:focus {
   outline: none !important;
   border: 0.3em solid darkred !important;
-}
-
-footer ul a li img:hover {
-  fill: rgb(227, 67, 9);
 }
 
 /*       einde body       */
@@ -250,7 +253,7 @@ footer > a {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 27px 30px 26px 29px;
+  padding: 1.6875em 1.875em 1.625em 1.8125em;
   font-size: 1em;
   font-style: normal;
   font-weight: 400;
@@ -298,22 +301,39 @@ time {
   animation-duration: .5s;
 }
 
+/* @keyframes slider-rechts {
+  0% {
+    background-image: url(../images/slider-2.webp);
+  }
+  33% {
+    background-image: url(../images/slider-3.webp);
+  }
+  66% {
+    background-image: url(../images/slider-1.webp);
+    
+  }
+  99% {
+    background-image: url(../images/slider-2.webp);
+   
+  }
+} */
+
 @keyframes slider-rechts {
   0% {
     transform: translateX(0);
   }
-  33% {
+  100% {
     transform: translateX(-100%);
   }
-  66% {
+  200% {
     transform: translateX(-200%);
   }
-  99% {
+  300% {
     transform: translateX(-300%);
   }
 }
 
-@-webkit-keyframes slider-rechts {
+/* @-webkit-keyframes slider-rechts {
   0% {
     transform: translateX(0);
   }
@@ -327,7 +347,7 @@ time {
   99% {
     transform: translateX(-300%);
   }
-}
+} */
 
 #homepagina > ul:nth-of-type(1) button.klikt, #homepagina > ul:nth-of-type(2) button.klikt {
   animation-name: pijltje-groter;
@@ -555,7 +575,7 @@ Bron:  https://www.w3schools.com/cssref/pr_pos_vertical-align.asp*/
 }
 
 #homepagina > section:nth-of-type(3) {
-  background: rgb(234, 234, 234);
+  background: var(--lightgrey);
 }
 
 #homepagina > section:nth-of-type(3) div article {
@@ -590,7 +610,7 @@ Bron:  https://www.w3schools.com/cssref/pr_pos_vertical-align.asp*/
 }
 
 .twee-images div:nth-of-type(1) {
-  background: rgb(234, 234, 234);
+  background: var(--lightgrey);
   width: 100%;
 }
 
@@ -660,7 +680,7 @@ Bron:  https://www.w3schools.com/cssref/pr_pos_vertical-align.asp*/
 }
 
 #music-pagina section:nth-of-type(1) {
-  background: rgb(234, 234, 234);
+  background: var(--lightgrey);
   text-align: center;
 }
 
@@ -722,7 +742,7 @@ ol li {
 }
 
 #music-pagina > section:nth-of-type(2) {
-  background: rgb(234, 234, 234);
+  background: var(--lightgrey);
   text-align: center;
   width: calc(100% -2rem);
 }
@@ -737,7 +757,7 @@ ol li {
 }
 
 #music-pagina section {
-  background: rgb(234, 234, 234);
+  background: var(--lightgrey);
   display: block;
 }
 
@@ -787,7 +807,7 @@ ol li {
   }
 
   nav ul li a.selected {
-    color: rgb(227, 67, 9);
+    color: var(--brownred);
   }
 
   /*      einde homepagina header       */

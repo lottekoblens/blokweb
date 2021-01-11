@@ -12,7 +12,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 4. - https://www.w3schools.com/cssref/css3_pr_overflow-x.asp - 
 5. - https://css-tricks.com/snippets/css/a-guide-to-flexbox/ -
 6. - https://www.w3schools.com/cssref/pr_pos_vertical-align.asp -
-7. - https://stackoverflow.com/questions/5080699/how-can-i-style-even-and-odd-elements -- 
+7. - https://stackoverflow.com/questions/5080699/how-can-i-style-even-and-odd-elements -
+8. - https://www.w3schools.com/css/css3_variables.asp -
 
 
 
@@ -30,7 +31,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
-- Dit ging goed: 
+- Dit ging goed: hover state kunnen uitwerken De border op de music pagina heb ik kunnen krijgen zoals ik hem wilde, dus niet de gehele breedte maar een deel daarvan.
 - Dit was lastig: De image slider krijg ik niet werkende, dus dat is best wel frustrerend. 
 
 **Screenshot(s):**
