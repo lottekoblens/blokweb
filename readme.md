@@ -14,6 +14,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 6. - https://www.w3schools.com/cssref/pr_pos_vertical-align.asp -
 7. - https://stackoverflow.com/questions/5080699/how-can-i-style-even-and-odd-elements -
 8. - https://www.w3schools.com/css/css3_variables.asp -
+9. - https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow -
+10. - https://www.smashingmagazine.com/2012/04/pure-css3-cycling-slideshow/#9 - 
+11. - https://css-tricks.com/different-approaches-for-creating-a-staggered-animation/ -
+12. - https://css-tricks.com/a-new-way-to-delay-keyframes-animations/ -
+13. - https://css-tricks.com/snippets/css/keyframe-animation-syntax/ -
 
 
 

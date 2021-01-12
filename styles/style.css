@@ -298,11 +298,11 @@ time {
 }
 
 /*      slider      */
-#homepagina > ul:nth-of-type(1) li.klikt-rechts {
+/* #homepagina > ul:nth-of-type(1) li.klikt-rechts {
   animation: slider-rechts;
   animation-duration: .5s;
-  /* animation-fill-mode: forwards; */
-}
+  animation-fill-mode: forwards;
+} */
 
 /* @keyframes slider-rechts {
   0% {
@@ -319,7 +319,7 @@ time {
   }
 } */
 
-@keyframes slider-rechts {
+/* @keyframes slider-rechts {
   0% {
     transform: translateX(0);
   }
@@ -332,7 +332,11 @@ time {
   99% {
     transform: translateX(-300%);
   }
-}
+} */
+
+/*    Code wat ik geprobeerd heb om de slider werkend te krijgen    */
+
+
 
 #homepagina > ul:nth-of-type(1) button.klikt, #homepagina > ul:nth-of-type(2) button.klikt {
   animation-name: pijltje-groter;
@@ -356,7 +360,7 @@ time {
   }
 }
 
-#homepagina > ul:nth-of-type(1) button {
+#homepagina > ul:nth-of-type(1) button, #homepagina > ul:nth-of-type(1) li a {
   position: absolute;
   top: 45vh;
   background: none;
@@ -374,13 +378,16 @@ time {
   0% {
     opacity: 0;
   }
-  90% {
+  80% {
     opacity: 0.5;
   }
-  95% {
+  85% {
+    opacity: 0.6;
+  }
+  90% {
     opacity: 0.7;
   }
-  97% {
+  95% {
     opacity: 0.85;
   }
   100% {
@@ -395,7 +402,7 @@ time {
 
 #homepagina > ul:nth-of-type(1) {
   width: 300%;
-  overflow-x: hidden;
+  overflow-x: scroll;
   white-space: nowrap;
   display: block;
   max-width: 100%;
