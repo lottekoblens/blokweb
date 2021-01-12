@@ -21,6 +21,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -dit ging goed & dit was lastig-
 
+- Dit ging goed: de website is volledig repsonsive, heb geëxperimenteerd met CSS variabelen en animatie.
+- Dit was lastig: de image slider die bovenaan de homepagina hoort te staan, heb ik helaas niet werkend gekregen. Ik heb veel geprobeerd, maar helaas is het niet gelukt.
+
 **Screenshot(s):**
 
 -screenshot(s) van je eindresultaat-
@@ -41,10 +44,12 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 Homepagina
 Op de homepagina moet eigenlijk alleen de image slider nog worden uitgewerkt en ik moet nog een animatie daaraan toevoegen.
 De hover, focus en active state moet ik nog uitwerken. En bij de footer gaat er nog iets mis om mobiel formaat.
+
 <img src="./images/voortgang-week6-home.png" width="375px" alt="Voortgang 3 homepagina"> 
 
 Pagina Music
 De music pagina is ook al voor het grootste gedeelte af. Helemaal onderaan de pagina staan vier buttons die ik op een andere manier nog moet posioneren.
+
 <img src="./images/voortgang2-music.png" width="375px" alt="Voortgang 3 music pagina"> 
 
 ### Agenda voor meeting
@@ -56,6 +61,7 @@ Ik ben niet bij de meeting met het groepje geweest, omdat ik werd geopereerd. Ik
 ### Verslag van meeting
 
 -na afloop snel uitkomsten vastleggen-
+
 Besproken welke onderdelen er nog niet af zijn en daar hulp bij gevraagd waardoor ik die onderdelen wel als het goed is werkende kan krijgen.
 
 ## verslag screenreader
@@ -75,10 +81,12 @@ Als je door het navigatiemenu heen tabt dan vertelt de screenreader je dat je je
 
 Homepagina
 Op de homepagina moet eigenlijk alleen de image slider nog worden uitgewerkt en ik moet nog een animatie daaraan toevoegen. En ik wil bij bepaalde onderdelen nog de hover state uitwerken.
+
 <img src="./images/voortgang2-home.png" width="375px" alt="Voortgang 2 homepagina"> 
 
 Pagina Music
 De music pagina is ook al voor het grootste gedeelte af, maar ik wil er nog voor zorgen dat de border die na elk album komt niet de gehele breedte inneemt, maar een deel daarvan, maar dit wil nog niet lukken. En helemaal onderaan de pagina staan vier buttons die ik op een andere manier nog moet posioneren.
+
 <img src="./images/voortgang2-music.png" width="375px" alt="Voortgang 2 music pagina"> 
 
 ### Agenda voor meeting
@@ -108,10 +116,12 @@ Goede meeting, problemen die ik had zijn opgelost.
 
 Homepagina
 De meeste onderdelen zijn al helemaal werkend en responsive. De image slider die moet ik nog maken, dat is me nog niet gelukt. En het hamburgermenu werkt nog niet helemaal.
+
 <img src="images/Voortgang1-home.png" width="375px" alt="Voortgang 1 homepagina"> 
 
 Pagina Music
 De meeste onderdelen zijn goed uitgelijnd e.d. maar de lijnen die tussen de albums moeten staan zijn nog niet goed. En de buttons die onderaan de pagina staan, zijn ook nog niet op de juiste manier weergegeven.
+
 <img src="images/Voortgang1-music.png" width="375px" alt="Voortgang 1 music pagina"> 
 
 ### Agenda voor meeting

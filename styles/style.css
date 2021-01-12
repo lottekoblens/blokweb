@@ -189,6 +189,7 @@ nav button {
   height: 5vh;
   width: 10vw;
   z-index: 1;
+  transition-duration: 0.3s;
 }
 
 nav a {
@@ -207,6 +208,7 @@ nav.toonNav ul {
 
 nav.toonNav button {
   background-image: url('../images/SVG/Kruis.svg');
+  transition-duration: 0.3s;
 }
 
 /* codepen Mediaqueries oefening 3 geraadpleegd voor de nav */
@@ -297,8 +299,9 @@ time {
 
 /*      slider      */
 #homepagina > ul:nth-of-type(1) li.klikt-rechts {
-  animation-name: slider-rechts;
+  animation: slider-rechts;
   animation-duration: .5s;
+  /* animation-fill-mode: forwards; */
 }
 
 /* @keyframes slider-rechts {
@@ -310,11 +313,9 @@ time {
   }
   66% {
     background-image: url(../images/slider-1.webp);
-    
   }
   99% {
     background-image: url(../images/slider-2.webp);
-   
   }
 } */
 
@@ -322,24 +323,8 @@ time {
   0% {
     transform: translateX(0);
   }
-  100% {
-    transform: translateX(-100%);
-  }
-  200% {
-    transform: translateX(-200%);
-  }
-  300% {
-    transform: translateX(-300%);
-  }
-}
-
-/* @-webkit-keyframes slider-rechts {
-  0% {
-    transform: translateX(0);
-  }
   33% {
     transform: translateX(-100%);
-    background: url('../images/slider-2.webp');
   }
   66% {
     transform: translateX(-200%);
@@ -347,7 +332,7 @@ time {
   99% {
     transform: translateX(-300%);
   }
-} */
+}
 
 #homepagina > ul:nth-of-type(1) button.klikt, #homepagina > ul:nth-of-type(2) button.klikt {
   animation-name: pijltje-groter;
@@ -505,9 +490,7 @@ Bron:  https://www.w3schools.com/cssref/pr_pos_vertical-align.asp*/
   border-radius: 0.3125em;
   padding: 0.6em 1.5em;
   font-size: 0.9em;
-  display: block;
-  position: relative;
-  left: 25vw;
+  display: inline-block;
   margin: 5em 0;
   width: 10em;
 }
@@ -566,6 +549,7 @@ Bron:  https://www.w3schools.com/cssref/pr_pos_vertical-align.asp*/
 
 #homepagina > section:nth-of-type(2) div, #homepagina > section:nth-of-type(3) div {
   overflow-x: scroll;
+  overflow-y: hidden;
   white-space: nowrap;
   display: block;
   flex-direction: column;
@@ -834,7 +818,7 @@ ol li {
   #homepagina > section:nth-of-type(1) {
     display: flex;
     flex-direction: column;
-    height: 110vh;
+    height: 100%;
   }
 
   #homepagina > section:nth-of-type(1) ul {
@@ -849,7 +833,11 @@ ol li {
     justify-content: center;
     align-content: center;
     align-items: center;
-    margin: auto; 
+    font-family: 'Woodford Bourne Thin', sans-serif;
+    font-size: 0.9em;
+    border: solid 0.0625em white;
+    color: black;
+    margin: 3em auto; 
     max-width: 11em;
   }
 
@@ -1015,7 +1003,7 @@ ol li {
   }
 
   #homepagina > a:nth-of-type(2) {
-    display: block;
+    display: inline-block;
     left: calc(50% - 7em);
   }
 
@@ -1026,7 +1014,7 @@ ol li {
   #homepagina > section:nth-of-type(1) {
     background: #232323;
     color: white;
-    height: 75vh;
+    height: 70vh;
   }
 
   #homepagina > section:nth-of-type(1) h2 {
