@@ -19,6 +19,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 11. - https://css-tricks.com/different-approaches-for-creating-a-staggered-animation/ -
 12. - https://css-tricks.com/a-new-way-to-delay-keyframes-animations/ -
 13. - https://css-tricks.com/snippets/css/keyframe-animation-syntax/ -
+14. - https://www.w3schools.com/howto/howto_js_scroll_to_top.asp - 
 
 
 
@@ -26,7 +27,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -dit ging goed & dit was lastig-
 
-- Dit ging goed: de website is volledig repsonsive, heb geëxperimenteerd met CSS variabelen en animatie.
+- Dit ging goed: de website is volledig repsonsive, heb geëxperimenteerd met CSS variabelen, animatie en een scroll event.
 - Dit was lastig: de image slider die bovenaan de homepagina hoort te staan, heb ik helaas niet werkend gekregen. Ik heb veel geprobeerd, maar helaas is het niet gelukt.
 
 **Screenshot(s):**

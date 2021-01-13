@@ -18,6 +18,7 @@ function pijlLinksGroter() {
     pijlLinksButton.classList.add("klikt");
     window.setTimeout(removeLinks, 500);
 }
+// setTimeout, na 500ms wordt de functie removeLinks aangeroepen
 
 function removeLinks() {
     pijlLinksButton.classList.remove("klikt");
@@ -37,7 +38,6 @@ function removeRechts() {
 
 var listItems = document.querySelector("#homepagina > ul:nth-of-type(1) li");
 
-// pijlLinksButton.addEventListener("click", slider);
 pijlRechtsButton.addEventListener("click", slider);
 
 function slider() {
@@ -49,6 +49,33 @@ function removeButtonRechts() {
     listItems.classList.remove("klikt-rechts");
 }
 
+// Button naar top
+
+var button = document.getElementById("top");
+button.addEventListener("click", naarTop);
+// als er op de button wordt geklikt wordt de functie naarTop aangeroepen
+
+function naarTop() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+
+window.addEventListener("scroll",  scrollFunctie);
+// Wanneer er wordt gescrolld, wordt de funtie scrollFunctie aangeroepen
+// Wanneer de gebruiker omlaag scrollt, 300px vanaf de top, dan zal de button getoond worden.
+
+function scrollFunctie () {
+    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+        button.style.display = "block";
+    }
+    else {
+        button.style.display = "none";
+    }
+}
+// document.docuemtElement staat voor het hoofdelement van het document, dus <html>
+
+
+// Dit is code die ik heb geprobeerd om de image slider werkend te krijgen, helaas is dat niet gelukt
 // var slideIndex = 1;
 // showSlides(slideIndex);
 
@@ -83,6 +110,5 @@ function removeButtonRechts() {
 // function removeSliderRechts() {
 //     sliderRechtsList.classList.remove("klikt-rechts");
 // }
-
 
 console.log('hoi');

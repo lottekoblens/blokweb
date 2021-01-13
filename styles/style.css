@@ -104,11 +104,12 @@ hr {
 
 header nav ul li:hover, #homepagina ul:nth-of-type(1) li a:hover, #homepagina article:nth-of-type(1) a:hover, #homepagina > a:nth-of-type(2):hover, 
 .tour-dates-more:hover, .link-more:hover, .listen-music:hover, #homepagina section:nth-of-type(1) a ul:hover, #homepagina section:nth-of-type(1) a ul:hover, #homepagina ul button:hover,
-footer ul li img:hover, footer > a:hover{
+footer ul li img:hover, footer > a:hover, #top:hover{
   background: var(--brownred);
   color: white;
   border: none;
   transition: ease-in-out .3s; 
+  cursor: pointer;
 }
 
 header a:nth-of-type(1):active, header nav ul li:active, #homepagina ul:nth-of-type(1) li a:active, #homepagina article:nth-of-type(1) a:active, #homepagina > a:nth-of-type(2):active, 
@@ -117,6 +118,7 @@ footer ul li img:active, footer > a:active  {
   background: #de8564;
   color: white;
   outline: none;
+  border: none;
 }
 
 header a:nth-of-type(1):focus, header nav ul li:focus, #homepagina ul:nth-of-type(1) li a:focus, #homepagina article:nth-of-type(1) a:focus, #homepagina > a:nth-of-type(2):focus, 
@@ -124,6 +126,19 @@ header a:nth-of-type(1):focus, header nav ul li:focus, #homepagina ul:nth-of-typ
 footer ul li img:focus, footer > a:focus {
   outline: none !important;
   border: 0.3em solid darkred !important;
+}
+
+#top {
+  display: none;
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+  border: none;
+  color: white;
+  background: var(--brownred);
+  padding: 0.5em;
+  font-family: 'Woodford Bourne', sans-serif;
+  font-size: 1em;
 }
 
 /*       einde body       */
