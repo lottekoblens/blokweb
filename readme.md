@@ -27,14 +27,16 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -dit ging goed & dit was lastig-
 
-- Dit ging goed: de website is volledig repsonsive, heb geëxperimenteerd met CSS variabelen, animatie en een scroll event.
+- Dit ging goed: de website is volledig repsonsive en ik heb geëxperimenteerd met CSS variabelen, animatie en een scroll event.
 - Dit was lastig: de image slider die bovenaan de homepagina hoort te staan, heb ik helaas niet werkend gekregen. Ik heb veel geprobeerd, maar helaas is het niet gelukt.
 
 **Screenshot(s):**
 
 -screenshot(s) van je eindresultaat-
 
+<img src="./images/eindresultaat-home.png" width="375px" alt="Eindresultaat homepagina"> 
 
+<img src="./images/eindresultaat-music.png" width="375px" alt="Eindresultaat music pagina"> 
 
 ## Voortgang 3 (week 6)
 
